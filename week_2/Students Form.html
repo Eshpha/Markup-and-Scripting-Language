@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Student Registration Form</h2>
+    <form>
+      <label>Roll no. :</label>
+      <input type="text" placeholder="Enter Roll No" required><br>
+
+      <label>Student name :</label>
+      <input type="text" placeholder="First Name" required>
+      <input type="text" placeholder="Last Name" required><br>
+
+      <label>Father's name :</label>
+      <input type="text" placeholder="Father's Name" required><br>
+
+      <label>Date of birth :</label>
+      <input type="date" required><br>
+
+      <label>Mobile no. :</label>
+      <input type="tel" placeholder="+880" required><br>
+
+      <label>Email id :</label>
+      <input type="email" placeholder="example@mail.com" required><br>
+
+      <label>Password :</label>
+      <input type="password" placeholder="Enter Password" required><br>
+
+      <label>Gender :</label>
+      <div class="gender-group">
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+      </div><br>
+
+      <label>Department :</label>
+      <div class="dept-group">
+        <input type="checkbox" name="dept" value="CSE"> CSE
+        <input type="checkbox" name="dept" value="IT"> IT
+        <input type="checkbox" name="dept" value="ECE"> ECE
+        <input type="checkbox" name="dept" value="Civil"> Civil
+      </div><br>
+
+      <label>Course :</label>
+      <select>
+        <option>Select Current Course</option>
+        <option>B.Tech</option>
+        <option>BBA</option>
+        <option>B.Sc</option>
+        <option>B.Com</option>
+      </select><br>
+
+      <label>Student photo :</label>
+      <input type="file"><br>
+
+      <label>City :</label>
+      <input type="text" placeholder="Enter City"><br>
+
+      <label>Address :</label>
+      <textarea placeholder="Enter Address"></textarea><br>
+
+      <button class="btn" type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
